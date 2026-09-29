@@ -1,13 +1,13 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-25 21:58:33.291203900 UTC
+// 2026-09-29 06:38:39.070974700 UTC
 
 pub const cs2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
             pub const dwCSGOInput: usize = 0x2575BB0;
-            pub const dwEntityList: usize = 0x27151A8;
-            pub const dwGameEntitySystem: usize = 0x27151A8;
+            pub const dwEntityList: usize = 0x27151E8;
+            pub const dwGameEntitySystem: usize = 0x27151E8;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2120;
             pub const dwGameRules: usize = 0x255C8D8;
             pub const dwGlobalVars: usize = 0x222BF88;
@@ -16,8 +16,6 @@ pub const cs2_dumper = struct {
             pub const dwLocalPlayerPawn: usize = 0x25606D8;
             pub const dwPlantedC4: usize = 0x24C9290;
             pub const dwPrediction: usize = 0x25605E0;
-            pub const dwSensitivity: usize = 0x255C820;
-            pub const dwSensitivity_sensitivity: usize = 0x58;
             pub const dwViewAngles: usize = 0x2576238;
             pub const dwViewMatrix: usize = 0x2565A20;
             pub const dwViewRender: usize = 0x25662E0;
@@ -48,7 +46,6 @@ pub const cs2_dumper = struct {
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {
             pub const dwSoundSystem: usize = 0x535340;
-            pub const dwSoundSystem_engineViewData: usize = 0x6C;
         };
     };
 };

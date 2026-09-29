@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-25 21:58:33.291203900 UTC
+// 2026-09-29 06:38:39.070974700 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
         public const nint dwCSGOInput = 0x2575BB0;
-        public const nint dwEntityList = 0x27151A8;
-        public const nint dwGameEntitySystem = 0x27151A8;
+        public const nint dwEntityList = 0x27151E8;
+        public const nint dwGameEntitySystem = 0x27151E8;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x2120;
         public const nint dwGameRules = 0x255C8D8;
         public const nint dwGlobalVars = 0x222BF88;
@@ -15,8 +15,6 @@ namespace CS2Dumper.Offsets {
         public const nint dwLocalPlayerPawn = 0x25606D8;
         public const nint dwPlantedC4 = 0x24C9290;
         public const nint dwPrediction = 0x25605E0;
-        public const nint dwSensitivity = 0x255C820;
-        public const nint dwSensitivity_sensitivity = 0x58;
         public const nint dwViewAngles = 0x2576238;
         public const nint dwViewMatrix = 0x2565A20;
         public const nint dwViewRender = 0x25662E0;
@@ -47,6 +45,5 @@ namespace CS2Dumper.Offsets {
     // Module: soundsystem.dll
     public static class SoundsystemDll {
         public const nint dwSoundSystem = 0x535340;
-        public const nint dwSoundSystem_engineViewData = 0x6C;
     }
 }
